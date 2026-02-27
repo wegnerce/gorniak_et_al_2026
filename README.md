@@ -36,15 +36,14 @@ This repository provides the following resources:
 
 ### Walkthroughs and scripts for data processing and analysis
 
-* _[RNASeq data processing][5]_: Here we deccribe how datasets have been pre-processed prior to differential gene expression analysis.
-* _[Differential gene expression analysis][6]_: This R script allows you to reproduce the overviews of differentially expressed genes, which we used for subsequent in-depth analysis of transcriptome changes in response to the different provided lanthanide sources.
-* _[Network analysis][7]_: The code in this script was used to identify modules of related genes based on weighted gene correlation network analysis.
+* _[RNASeq data processing][7]_: Here we deccribe how datasets have been pre-processed prior to differential gene expression analysis.
+* _[Differential gene expression analysis][5]_: This R script allows you to reproduce the overviews of differentially expressed genes, which we used for subsequent in-depth analysis of transcriptome changes in response to the different provided lanthanide sources.
+* _[Network analysis][6]_: The code in this script was used to identify modules of related genes based on weighted gene correlation network analysis.
 
 [1]: http://mailto:%20carl-eric.wegner@hhu.de
 [2]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/data_files/readcounts_featureCounts.txt
 [3]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/data_files/readcounts_featureCounts.txt.summary
 [4]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/data_files/log_cpm.csv
-[5]:
-[6]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/scripts/DGEA_Gorniak_et_al_2026.R
-[7]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/scripts/WGCNA_Gorniak_et_al_2026.R
-[8]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/data_files/overview_differential_gene_expression_analysis.xlsx
+[5]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/scripts/DGEA_Gorniak_et_al_2026.R
+[6]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/scripts/WGCNA_Gorniak_et_al_2026.R
+[7]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/data_files/overview_differential_gene_expression_analysis.xlsx
