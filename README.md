@@ -29,7 +29,7 @@ Correspondence should be addressed to: [**Carl-Eric Wegner**][1]
 This repository provides the following resources:
 
 ### Data files
-* _[Read count data per gene][2]_: The carried out steps to obtain the read count data, starting from raw data are explained here: [`RNA-Seq data processing`][5] 
+* _[Read count data per gene][2]_: The carried out steps to obtain the read count data, starting from raw data are explained here: [`RNA-Seq data processing`][7] 
 * _[Mapping statistics][3]_: The given statistics are based on mapping processed reads onto the  genome of _Beijerinckiaceae_ bacterium RH AL1 using _bbmap_ and generating mapping statistics with _featureCounts_. 
 * _[log2CPM data for all coding genes][4]_: The provided log<sub>2</sub>CPM (counts per million) data are the basis for differential gene expression and related analyses.
 * _[Oerview of differentially expressed genes][8]_: A spreadsheet with a combined overview of differentially expressed genes for comparisons between the individual experimental conditions (= different lanthanide sources).
@@ -46,4 +46,5 @@ This repository provides the following resources:
 [4]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/data_files/log_cpm.csv
 [5]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/scripts/DGEA_Gorniak_et_al_2026.R
 [6]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/scripts/WGCNA_Gorniak_et_al_2026.R
-[7]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/data_files/overview_differential_gene_expression_analysis.xlsx
+[7]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/scripts/rnaseq_data_processing.md
+[8]: https://github.com/wegnerce/gorniak_et_al_2026/blob/main/data_files/overview_differential_gene_expression_analysis.xlsx
